@@ -1,0 +1,54 @@
+.svg-hexagonal-counter {
+    display: block;
+    position: relative;
+    top: 50%;
+}
+.svg-hexagonal-counter h2 {
+    position: absolute;
+    font-size: 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.svg-hexagonal-counter .counter {
+    width: 50px;
+    height: 60px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+.svg-hexagonal-counter .counter .fill, .svg-hexagonal-counter .counter .track {
+    fill: rgba(0, 0, 0, 0);
+    stroke-width: 50;
+    transform: translate(290px, 800px)rotate(-120deg);
+}
+.svg-hexagonal-counter .counter .fill {
+    stroke: #fff;
+    stroke-linecap: round;
+    stroke-dasharray: 2160;
+    stroke-dashoffset: 2160;
+}
+
+.td_music {
+    border-right: 1px solid #e0e0e3;
+    width: 80px;
+    height: 72px;
+}
+
+.button_timer {
+    margin-right: 10px; 
+    background-color:transparent; 
+    background-repeat:no-repeat; 
+    border: none; 
+    cursor:pointer; 
+    overflow:hidden;
+    z-index: 1;
+}
+
+.button_timer h2 {
+    left: 43%;
+}

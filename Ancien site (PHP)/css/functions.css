@@ -1,0 +1,142 @@
+/* Header */
+.header {
+    position: relative;
+    color: white;
+	font-weight: normal;
+    font-family: 'Roboto Mono', sans-serif;
+    background-color: #2f3947;
+    border: 0;
+    height: 70px;
+}
+
+/* Logo + Title */
+.header .title .symbol {
+    margin-right: 0.4em;
+}
+.header .title .symbol img {
+    display: block;
+    width: 1.2em;
+    height: 1.2em;
+}
+.title {
+    margin: 10px;
+    font-size: 40px;
+}
+.header .title > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Buttons */
+.header .navbarButtons a {
+    cursor: pointer;
+}
+.navbarButtons {
+    position: absolute;
+    display: inline;
+    top: 50%;
+    right: 1%;
+    transform: translateY(-50%);
+}
+.navbarButtons a {
+    padding-left: 10px;
+}
+.navbarButtons a:first-child {
+    padding-left: 0px;
+}
+a.title {
+    text-decoration: none;
+    color: white;
+}
+a.navtop {
+    color: white;
+    text-decoration: none;
+}
+
+/* Modal Box */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.modal-content label{
+    display: inline-block;
+    color: #000;
+    clear: left;
+    width: fit-content;
+    text-align: right;
+    padding-right: 8px;
+}
+.modal-content input {
+    display: inline-block;
+}
+.modal-content input[type=submit] {
+    margin-top: 14px;
+}
+.modal-content .condition{
+    border-top: 1px solid #e0e0e3;
+}
+.modal-content .condition i {
+    font-size: 10px;
+    padding-right: 10px;
+}
+.modal-content .condition i:first-child {
+    padding-top: 15px;
+}
+.modal-content .condition i.red {
+    color: red;
+}
+.modal-content .condition i.green {
+    color: green;
+}
+
+
+/* Alert */
+.alert-main {
+    color: #000000; 
+    background-color: #4486e2; 
+    border-color: rgb(144, 220, 255);
+    margin: 0% 10% 0% 10%;
+}
+.close {
+    color: #aaaaaa;
+    font-size: 28px;
+    font-weight: bold;
+    width: min-content;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2f3947;
+    color: white;
+    text-align: center;
+}
+.footer p {
+    padding:6px;
+    margin:0;
+}
