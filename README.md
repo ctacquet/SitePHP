@@ -11,3 +11,6 @@ Les liens de musique sont des liens Spotify.
 ## Maquette de base du site
 Voici la maquette qui a servi à la création des pages Web :
 ![Maquette](https://i.imgur.com/agWNRVd.png "Maquette du site")
+
+## Résultat du site
+![Résultat]([img]https://i.imgur.com/FFDIOah.png[/img] "Résultat du site")
