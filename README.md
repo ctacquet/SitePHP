@@ -13,4 +13,4 @@ Voici la maquette qui a servi à la création des pages Web :
 ![Maquette](https://i.imgur.com/agWNRVd.png "Maquette du site")
 
 ## Résultat du site
-![Résultat]([img]https://i.imgur.com/FFDIOah.png[/img] "Résultat du site")
+![Résultat](https://i.imgur.com/FFDIOah.png "Résultat du site")
